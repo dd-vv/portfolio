@@ -23,9 +23,11 @@ export function Hero() {
         <span className="block animate-rise" style={delay(120)}>
           {hero.titleLine1}
         </span>
-        <span className="block animate-rise text-muted-foreground" style={delay(240)}>
-          {hero.titleLine2}
-        </span>
+        {hero.titleLine2 && (
+          <span className="block animate-rise text-muted-foreground" style={delay(240)}>
+            {hero.titleLine2}
+          </span>
+        )}
       </h1>
 
       <div className="mt-14 grid grid-cols-1 gap-10 md:mt-24 md:grid-cols-12 md:gap-8">

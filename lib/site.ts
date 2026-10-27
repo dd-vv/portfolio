@@ -54,7 +54,7 @@ export const navItems = [
 // ---------------------------------------------------------------------------
 export const hero = {
   titleLine1: 'Diseño web con intención.',
-  titleLine2: 'Y rigor técnico.',
+  titleLine2: '',
   primaryButton: { label: 'Ver proyectos', href: '#proyectos' },
   secondaryButton: { label: 'Hablemos de tu proyecto', href: '#contacto' },
 }
