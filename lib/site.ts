@@ -153,7 +153,7 @@ export const footer = {
   // El año se añade automáticamente delante: "© 2026 Nombrea ..."
   socialsAriaLabel: 'Redes profesionales',
   backToTop: '↑',
-  rights: 'Tots els drets reservats.',
+  rights: '',
 }
 
 export const a11y = {
