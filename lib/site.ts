@@ -54,7 +54,7 @@ export const navItems = [
 // ---------------------------------------------------------------------------
 export const hero = {
   titleLine1: 'Diseño web con intención.',
-  
+  titleLine2: 'Y rigor técnico.',
   primaryButton: { label: 'Ver proyectos', href: '#proyectos' },
   secondaryButton: { label: 'Hablemos de tu proyecto', href: '#contacto' },
 }
@@ -153,6 +153,7 @@ export const footer = {
   // El año se añade automáticamente delante: "© 2026 Nombrea ..."
   socialsAriaLabel: 'Redes profesionales',
   backToTop: '↑',
+  rights: 'Tots els drets reservats.',
 }
 
 export const a11y = {
